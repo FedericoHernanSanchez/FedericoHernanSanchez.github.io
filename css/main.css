@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+  
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.0em;
+}
+
+
+/*Barra de navegacion */
+
+
+
+nav{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+
+
+.container-fluid{
+    text-align: center;
+}
+
+
+
+.navbar-nav a{
+    padding: 20px;
+}
+
+.navbar-brand{
+    padding: 10px;
+}
+
+
+.container-fluid a:hover{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+
+
+/* Sobre mi */
+
+
+#inicio {
+    text-align: center;
+    background-color: rgb(229, 241, 241);
+    
+}
+
+
+
+#inicio h1{
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+}
+
+#inicio h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+#inicio p{
+        font-family: 'Roboto', sans-serif;
+     
+}
+
+#inicio h3 {
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-size :large;
+    padding-bottom: 10px;
+    color: blueviolet;
+    font-weight:600;
+}
+
+#inicio .foto{
+    padding: 30px 0px;
+}
+
+#inicio .container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+#inicio .foto img {
+    border-radius: 20px;
+    width: 90%;
+}
+
+
+#inicio .datosPersonales p {
+    padding-bottom: 40px;
+    margin-bottom:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#inicio .datosPersonales h2{
+    padding: 50px 0px;
+}
+
+#inicio i{
+    padding-bottom: 5px;
+}
+
+#inicio i:hover{
+    color:blueviolet;
+}
+
+
+
+/* Experiencia */
+
+
+
+#experiencia {
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    padding-top: 150px;
+    padding-bottom: 115px;
+    
+}
+
+
+#experiencia .container{
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+
+    
+}
+
+
+
+
+#experiencia .exp{
+   background-color: rgb(50, 50,50);
+   border-radius: 2rem;
+   margin-top: 30px;
+   padding: 10px;
+}
+
+#experiencia .exp:hover{
+    border: 1px solid rgb(229, 241, 241);
+}
+
+
+#experiencia button{
+    font-size: 18px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 15px;
+    margin: 15px;
+    font-family:'Poppins', sans-serif;
+    border: none
+}
+
+#experiencia button:hover{
+    background-color: rgb(108, 50, 163);
+}
+
+#experiencia h4{
+    padding: 15px;
+    font-family:'Poppins', sans-serif;
+}
+
+#experiencia h2{
+    font-family:'Poppins', sans-serif;
+}
+
+#experiencia p{
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+
+.hideText {
+    display: none;
+  }
+  
+  .hideText li{
+    padding-bottom: 15px;
+  }
+
+.showText {
+    display: block;
+}
+
+
+
+
+/* Habilidades */
+
+
+
+#habilidades {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 150px;
+}
+
+
+#habilidades .container{
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+#habilidades h2{
+    font-family:'Poppins', sans-serif;
+}
+
+
+#habilidades .habilidad {
+    background-color: rgb(50, 50,50);
+    border-radius: 2rem;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+#habilidades .habilidad:hover{
+    border: 1px solid rgb(229, 241, 241);
+}
+
+
+#habilidades .experiencia-contenido{
+    padding: 15px;
+}
+
+#habilidades .experiencia-detalles{
+    display: flex;
+    gap: 1rem;
+}
+
+#habilidades h5{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+/* Footer */
+
+
+#redes {
+    background-color: rgb(229, 241, 241);
+    padding: 20px 20px;
+    text-align: center;
+}
+
+#redes .container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+#redes i {
+    font-size: 30px;
+    
+}
+
+
+#redes .contacto {
+    text-align: center;
+    padding: 30px ;
+}
+
+#redes h2 {
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+
+#redes h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+#redes .contacto  {
+    text-decoration: none;
+}
+
+
+
+#redes a:hover{
+    color: blueviolet;
+}
+
+#redes .contacto a{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#redes .contacto a:hover{
+    background-color: rgb(108, 50, 163);
+
+}
+
+#redes i:hover{
+    color: blueviolet;
+}
+
+#redes a{
+    color: rgb(50, 50,50);
+}
+
+
+
+.hideText {
+    display: none;
+  }
+  
+  .hideText li{
+    padding-bottom: 15px;
+}
+
+  .showText {
+    display: block;
+  }
+
+
+
+
+/* Media queries */
+
+
+
+  @media screen and (max-width: 1024px) {
+    #experiencia .container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+      
+    }
+
+
+    #habilidades .container {
+        grid-template-columns: 1fr;
+    }
+    #habilidades .container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    #habilidades .container {
+        padding: 1rem;
+    }
+
+    #inicio .container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    
+}
+
+@media screen and (min-width: 1025px) {
+    
+    
+    .foto{
+        width: 550px;
+        margin: 10px;
+    }
+
+    #redes .container{
+        justify-content: space-evenly;
+        
+    }
+
+    .dato{
+        display: flex;
+    }
+
+    .datosPersonales{
+        padding-left: 150px;
+    }
+
+    .dato p{
+        padding-left: 40px;
+    }
+
+    .dato i {
+        font-size: 25px;
+    }
+
+    .container-fluid a{
+        padding-left: 150px;
+        padding-bottom: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 991px) {
+    
+    
+    .navbar-collapse{
+        justify-content: flex-end;
+
+    }
+    
+    .navbar-collapse a{
+        margin-right: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #experiencia .container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      #habilidades .container {
+        gap: 1rem;
+    }
+
+    #habilidades .container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
+
+
+
